@@ -1,0 +1,42 @@
+<%= form_with(model: agenda_citum, local: true) do |form| %>
+  <% if agenda_citum.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(agenda_citum.errors.count, "error") %> prohibited this agenda_citum from being saved:</h2>
+
+      <ul>
+      <% agenda_citum.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :ips %>
+    <%= form.text_field :ips, id: :agenda_citum_ips %>
+  </div>
+
+  <div class="field">
+    <%= form.label :especialidad %>
+    <%= form.text_field :especialidad, id: :agenda_citum_especialidad %>
+  </div>
+
+  <div class="field">
+    <%= form.label :profesional %>
+    <%= form.text_field :profesional, id: :agenda_citum_profesional %>
+  </div>
+
+  <div class="field">
+    <%= form.label :fecha %>
+    <%= form.date_select :fecha, id: :agenda_citum_fecha %>
+  </div>
+
+  <div class="field">
+    <%= form.label :paciente %>
+    <%= form.text_field :paciente, id: :agenda_citum_paciente %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

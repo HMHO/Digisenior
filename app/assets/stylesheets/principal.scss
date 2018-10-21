@@ -1,0 +1,112 @@
+// Place all the styles related to the principal controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html {
+    width: 100%;
+    height: 920px;
+    margin: 5%, 5%, 5%, 5%;
+    background: lightslategray;
+}
+
+body {
+	font: 14px/20px  'Open Sans', sans-serif;
+	color:#8c8989;
+	background-color: #f8f8f8;
+	position:relative;
+    padding-top: 1px;
+    width: 95%;
+    height: 70%;
+}
+
+head{
+    width: 100%;
+    height: 20%;
+    background-color:red;
+}
+
+footer {
+    width: 100%;
+    height: 10%;
+    background-color: #009fb3;
+    font: bolder;
+    size: 2em;
+    color: beige;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	color: #009fb3;
+
+}
+
+h2 {
+	font-size: 20px;
+	line-height: 30px;
+	color: #585858;
+	font-weight: bold;
+	padding-top: 50px;
+	margin-bottom: 43px;
+}
+
+
+h3 {
+	font: bold 30px/30px 'Open Sans Condensed', sans-serif;
+	color: #585858;
+	padding-top: 45px;
+	margin-bottom: 46px;
+}
+
+h4 {
+	font: bold 25px/25px 'Open Sans Condensed', sans-serif;
+	color: #11b7df;
+	padding-top: 45px;
+	margin-bottom: 46px;
+}
+
+p {
+
+    margin-bottom: 20px;
+    font: bolder;
+    color: brown;
+    size: 2em;
+}
+
+.img {
+    width: 80%;
+    height: 80%;
+    margin: 2%;
+} 
+
+cuerpo {
+    width: 95%;
+    height: 100%;
+    margin-top: 1%;
+}
+
+.column_1x5 {
+    width: 17.5%;
+    margin-top: 2.5%;
+    background-color: red;
+    display: inline-block;
+}
+
+.column_1x3 {
+    width: 30%;
+    margin-top: 2.5%;
+    display: inline-block;
+}
+
+.column_1x1 {
+    width: 95%;
+    display: inline-block;
+    margin-top: 1%; 
+}
+
+.logo {
+    width: 10em;
+    height: 10em;
+    margin: 0.1em;
+    background-color: steelblue;
+
+}

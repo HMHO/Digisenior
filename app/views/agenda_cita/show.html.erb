@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Ips:</strong>
+  <%= @agenda_citum.ips %>
+</p>
+
+<p>
+  <strong>Especialidad:</strong>
+  <%= @agenda_citum.especialidad %>
+</p>
+
+<p>
+  <strong>Profesional:</strong>
+  <%= @agenda_citum.profesional %>
+</p>
+
+<p>
+  <strong>Fecha:</strong>
+  <%= @agenda_citum.fecha %>
+</p>
+
+<p>
+  <strong>Paciente:</strong>
+  <%= @agenda_citum.paciente %>
+</p>
+
+<%= link_to 'Edit', edit_agenda_citum_path(@agenda_citum) %> |
+<%= link_to 'Back', agenda_cita_path %>

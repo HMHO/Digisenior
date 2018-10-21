@@ -1,0 +1,2 @@
+class AgendaCita < ApplicationRecord
+end

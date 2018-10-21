@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ips: MyString
+  especialidad: MyString
+  profesional: MyString
+  fecha: 2018-10-07
+  paciente: MyString
+
+two:
+  ips: MyString
+  especialidad: MyString
+  profesional: MyString
+  fecha: 2018-10-07
+  paciente: MyString

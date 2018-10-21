@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Ips:</strong>
+  <%= @citum.ips %>
+</p>
+
+<p>
+  <strong>Especialidad:</strong>
+  <%= @citum.especialidad %>
+</p>
+
+<p>
+  <strong>Profesional:</strong>
+  <%= @citum.profesional %>
+</p>
+
+<p>
+  <strong>Fecha:</strong>
+  <%= @citum.fecha %>
+</p>
+
+<p>
+  <strong>Paciente:</strong>
+  <%= @citum.paciente %>
+</p>
+
+<%= link_to 'Edit', edit_citum_path(@citum) %> |
+<%= link_to 'Back', cita_path %>
