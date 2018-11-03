@@ -30,6 +30,11 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+# Use devise
+gem 'devise', '~> 4.5'
+
+# Use rack cors
+gem 'rack-cors', '~> 1.0', '>= 1.0.2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -52,6 +57,8 @@ group :production do
   # use pg
   gem 'pg', '~> 1.1', '>= 1.1.3'
 end
+
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
